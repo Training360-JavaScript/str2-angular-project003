@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ConfigService, IMenuItem } from '../service/config.service';
 
 @Component({
   selector: 'app-navigation',
@@ -7,7 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavigationComponent implements OnInit {
 
-  constructor() { }
+  appName: string = this.config.appName;
+  menuItems: IMenuItem[] = this.config.menuItems;
+
+  constructor(
+    private config: ConfigService,
+  ) { }
 
   ngOnInit(): void {
   }
