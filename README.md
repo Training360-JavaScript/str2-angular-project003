@@ -62,7 +62,7 @@ Ezeket nektek kell legenerálni, például így: `ng g c common/product-card`
 
 ### 1. Termékkártya komponens
 Ez jeleníti meg az egyes termékeket. Az alábbi részei vannak:
-- Termékkép, teljes szélességében a kártya felső 30-50% át foglalja el.
+- Termékkép, teljes szélességében a kártya felső 30-50%-át foglalja el.
 - Alatta egymás alatt: név, rövid leírás, készlet, ár. A formázás rátok van bízva. 
 Kiindulásnak jó lehet (de módosítsátok): `https://getbootstrap.com/docs/4.6/components/card/#example`
 - Működése: input tulajdonságként kapja meg a megjelenített terméket, 
